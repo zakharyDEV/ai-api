@@ -44,6 +44,8 @@ To deploy this project you need
 - haskell: version 9.4.7 or greater
 - elixir
 - Python: version 3.10 or greater
+
+First you must run keygen.py to generate api key
  once api keys are sets  
  - "ApiKey=4BCi-QqbF-rzmg-CbeR-D" UrlChecker.ex
  - api_key = "4BCi-QqbF-rzmg-CbeR-D" api-validator.py

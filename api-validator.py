@@ -12,7 +12,7 @@ def check_api_key():
         keys = cursor.fetchall()
         
         # Manually set values to check
-        api_key = "4BCi-QqbF-rzmg-CbeR-D" # Replace with your API key
+        api_key = "YOUR_API_KEY" # Replace with your API key
         
         # Convert keys to a list of strings
         keys = [key[0] for key in keys]
@@ -30,7 +30,7 @@ def check_api_key():
 
 def run_main(): # if true run the server for communication
     try:
-        subprocess.call(["python", "main.py"])
+        subprocess.call(["python", "path/to/main.py"]) # Replace with the path to your main.py file
     except subprocess.CalledProcessError as e:
         print("Error: An error occurred while running main.py:", e)
 
